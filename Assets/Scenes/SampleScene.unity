@@ -647,7 +647,7 @@ MonoBehaviour:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1677604727}
-  m_Enabled: 0
+  m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 72790018ed41c4a4e90f10e367068bf4, type: 3}
   m_Name: 
@@ -655,7 +655,11 @@ MonoBehaviour:
   numObjects: 100
   radius: 11
   prefab: {fileID: 2032805523}
-  seed: 45
+  seed: 13
+  distance: 1
+  spacing: 3
+  AddCloud: 0
+  RemoveCloud: 0
 --- !u!114 &1677604729
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -663,15 +667,19 @@ MonoBehaviour:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1677604727}
-  m_Enabled: 1
+  m_Enabled: 0
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 4e69664c6ffc60e42ae97b2d1f11f792, type: 3}
+  m_Script: {fileID: 11500000, guid: 72790018ed41c4a4e90f10e367068bf4, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  numObjects: 50
-  radius: 12
+  numObjects: 500
+  radius: 13
   prefab: {fileID: 245019589}
-  seed: 4500
+  seed: 567
+  distance: 10
+  spacing: 1.5
+  AddCloud: 0
+  RemoveCloud: 0
 --- !u!114 &1677604732
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -788,7 +796,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 2032805523}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 9999, y: 9999, z: 9999}
+  m_LocalPosition: {x: 9999, y: 9999, z: 9999.994}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
